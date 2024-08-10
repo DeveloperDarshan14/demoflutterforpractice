@@ -11,6 +11,14 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Container(
+        child: const Text("0",style: TextStyle(
+          color: Colors.amber,
+          fontSize: 25,
+          fontWeight: FontWeight.bold
+        ),),
+      ),
+    );
   }
 }
