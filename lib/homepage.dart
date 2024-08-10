@@ -13,6 +13,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        decoration: BoxDecoration(
+          color: Colors.pink
+        ),
         child: const Text("0",style: TextStyle(
           color: Colors.amber,
           fontSize: 25,
